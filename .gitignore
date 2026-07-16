@@ -1,0 +1,19 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment (if you decide to use it later)
+venv/
+env/
+
+# Ignore uploaded and generated images (Privacy first!)
+static/uploads/
+*.jpg
+*.png
+
+# Ignore YOLO training runs/logs if they exist
+runs/
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
