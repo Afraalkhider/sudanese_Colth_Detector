@@ -10,13 +10,13 @@ This is a Flask-based web application that utilizes a custom-trained YOLO object
 
 \## Features
 
-\- \*\*Image Upload:\*\* Users can upload images directly through a simple web interface.
+\* \*\*Image Upload:\*\* Users can upload images directly through a simple web interface.
 
-\- \*\*AI Detection:\*\* Utilizes a YOLO model (`best.pt`) to draw bounding boxes around detected items.
+\* \*\*AI Detection:\*\* Utilizes a YOLO model (`best.pt`) to draw bounding boxes around detected items.
 
-\- \*\*Health Score (Confidence):\*\* Calculates and displays the confidence percentage for each detected item.
+\* \*\*Health Score (Confidence):\*\* Calculates and displays the confidence percentage for each detected item.
 
-\- \*\*Privacy-Focused:\*\* Uploaded and processed images are stored locally in the `static/uploads` directory and are excluded from version control.
+\* \*\*Privacy-Focused:\*\* Uploaded and processed images are stored locally in the `static/uploads` directory and are excluded from version control.
 
 
 
@@ -34,11 +34,13 @@ my\_yolo\_project/
 
 ├── README.md             # Project documentation
 
-├── .gitignore            # Git exclusion rules (ignores /venv, /uploads)
+├── requirements.txt      # Project dependencies
+
+├── .gitignore            # Git exclusion rules
 
 ├── static/
 
-│   └── uploads/          # Directory for saving uploaded \& annotated images
+│   └── uploads/          # Directory for saving annotated images
 
 └── templates/
 
